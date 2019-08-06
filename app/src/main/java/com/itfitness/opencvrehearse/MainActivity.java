@@ -9,7 +9,8 @@ import android.widget.Toast;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.itfitness.opencvrehearse.base.BaseActivity;
-import com.itfitness.opencvrehearse.beauty.BeautyActivity;
+import com.itfitness.opencvrehearse.demos.beauty.BeautyActivity;
+import com.itfitness.opencvrehearse.demos.codeextra.CodeExtraActivity;
 import com.itfitness.opencvrehearse.utils.RehearseUtil;
 
 import org.opencv.android.OpenCVLoader;
@@ -55,6 +56,10 @@ public class MainActivity extends BaseActivity {
                     case 0:
                         //人像美颜
                         gotoActivity(BeautyActivity.class);
+                        break;
+                    case 1:
+                        //图形验证码提取
+                        gotoActivity(CodeExtraActivity.class);
                         break;
                 }
             }

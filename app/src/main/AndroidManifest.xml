@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <!--人像美颜-->
-        <activity android:name=".beauty.BeautyActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".demos.beauty.BeautyActivity" android:screenOrientation="portrait"/>
+        <!--图形验证码提取-->
+        <activity android:name=".demos.codeextra.CodeExtraActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

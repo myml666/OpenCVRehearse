@@ -11,6 +11,7 @@ public class RehearseUtil {
     public static List<String> getRehearseList(){
         ArrayList<String> rehearseList = new ArrayList<>();
         rehearseList.add("人像美颜");
+        rehearseList.add("图形验证码提取");
         return rehearseList;
     }
 }

@@ -19,7 +19,7 @@ set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,--exclude-libs,l
 
 add_library( native-lib
         SHARED
-        beauty.cpp)
+        native.cpp)
 
 target_link_libraries( native-lib
         ${OpenCV_LIBS}

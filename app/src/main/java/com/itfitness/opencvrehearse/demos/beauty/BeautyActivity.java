@@ -1,4 +1,4 @@
-package com.itfitness.opencvrehearse.beauty;
+package com.itfitness.opencvrehearse.demos.beauty;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -37,6 +37,8 @@ public class BeautyActivity extends BaseActivity {
         TAG = "美颜";
         initView();
         mBitmap = BitmapFactory.decodeResource(getResources(),R.mipmap.ic_beauty);
+
+
         mBtBeauty.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
