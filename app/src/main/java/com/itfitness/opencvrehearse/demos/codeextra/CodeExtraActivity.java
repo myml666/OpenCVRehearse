@@ -13,6 +13,7 @@ import com.itfitness.opencvrehearse.base.BaseActivity;
 
 import org.opencv.android.Utils;
 import org.opencv.core.Mat;
+import org.opencv.core.Size;
 import org.opencv.imgproc.Imgproc;
 
 public class CodeExtraActivity extends BaseActivity {
@@ -24,13 +25,15 @@ public class CodeExtraActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_codeextra);
         initView();
+
+
+
         mBitmap = BitmapFactory.decodeResource(getResources(),R.mipmap.ic_codeextra);
         mBtnCodeExtra.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 codeExtra(mBitmap);
                 mImgCode.setImageBitmap(mBitmap);
-
             }
         });
     }

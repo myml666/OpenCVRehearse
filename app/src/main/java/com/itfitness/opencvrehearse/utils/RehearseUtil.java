@@ -12,6 +12,9 @@ public class RehearseUtil {
         ArrayList<String> rehearseList = new ArrayList<>();
         rehearseList.add("人像美颜");
         rehearseList.add("图形验证码提取");
+        rehearseList.add("浮雕效果");
+        rehearseList.add("简笔画");
+        rehearseList.add("图像映像");
         return rehearseList;
     }
 }

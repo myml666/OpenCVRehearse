@@ -11,6 +11,9 @@ import com.chad.library.adapter.base.BaseViewHolder;
 import com.itfitness.opencvrehearse.base.BaseActivity;
 import com.itfitness.opencvrehearse.demos.beauty.BeautyActivity;
 import com.itfitness.opencvrehearse.demos.codeextra.CodeExtraActivity;
+import com.itfitness.opencvrehearse.demos.relief.ReliefActivity;
+import com.itfitness.opencvrehearse.demos.remap.RemapActivity;
+import com.itfitness.opencvrehearse.demos.stickfigure.StickFigureActivity;
 import com.itfitness.opencvrehearse.utils.RehearseUtil;
 
 import org.opencv.android.OpenCVLoader;
@@ -60,6 +63,18 @@ public class MainActivity extends BaseActivity {
                     case 1:
                         //图形验证码提取
                         gotoActivity(CodeExtraActivity.class);
+                        break;
+                    case 2:
+                        //浮雕效果
+                        gotoActivity(ReliefActivity.class);
+                        break;
+                    case 3:
+                        //简笔画
+                        gotoActivity(StickFigureActivity.class);
+                        break;
+                    case 4:
+                        //图像映像
+                        gotoActivity(RemapActivity.class);
                         break;
                 }
             }

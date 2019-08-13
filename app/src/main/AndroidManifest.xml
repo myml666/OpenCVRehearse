@@ -20,6 +20,12 @@
         <activity android:name=".demos.beauty.BeautyActivity" android:screenOrientation="portrait"/>
         <!--图形验证码提取-->
         <activity android:name=".demos.codeextra.CodeExtraActivity" android:screenOrientation="portrait"/>
+        <!--浮雕效果-->
+        <activity android:name=".demos.relief.ReliefActivity" android:screenOrientation="portrait"/>
+        <!--简笔画-->
+        <activity android:name=".demos.stickfigure.StickFigureActivity" android:screenOrientation="portrait"/>
+        <!--图像映像-->
+        <activity android:name=".demos.remap.RemapActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

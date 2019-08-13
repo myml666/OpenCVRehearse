@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/activity_stickfigure_bt"
+        android:text="简笔画"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/activity_stickfigure_tv_black"
+            android:textColor="#fff"
+            android:text="√"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="@drawable/shape_stickfigure_black"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/activity_stickfigure_tv_yellow"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="@drawable/shape_stickfigure_yellow"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/activity_stickfigure_tv_red"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="@drawable/shape_stickfigure_red"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/activity_stickfigure_tv_blue"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="@drawable/shape_stickfigure_blue"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/activity_stickfigure_tv_green"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:gravity="center"
+            android:background="@drawable/shape_stickfigure_green"
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <ImageView
+        android:src="@mipmap/ic_relief"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/activity_stickfigure_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
